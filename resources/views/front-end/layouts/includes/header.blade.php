@@ -16,7 +16,7 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="./">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="dropdown nav-item active">
                         <a href="properties.html" class="nav-link" data-bs-toggle="dropdown">Pages<i class="fas fa-chevron-down fa-xs"></i></a>
@@ -68,7 +68,7 @@
                 </ul>
             </div>
             <a class="navbar-brand" href="#">
-                <img class="img-fluid" src="./images/logo/logo.png" alt="logo" width="200px" height="30px;">
+                <img class="img-fluid" src="{{asset('/images/logo/WorkOrBit-Logo.png')}}" alt="logo" width="200px" height="30px;">
             </a>
 
 
@@ -83,7 +83,7 @@
             <div class="navbar-collapse collapse justify-content-end nav-d-none-small">
                 <ul class="nav navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="./">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="dropdown nav-item active">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">Pages<i class="fas fa-chevron-down fa-xs"></i></a>

@@ -24,6 +24,9 @@
  <link rel="stylesheet" href="{{asset('plugins/toastr/toastr.css')}}">
  <link rel="stylesheet" href="{{asset('plugins/ijaboCropTool/ijaboCropTool.min.css')}}">
 
+ <link rel="stylesheet" href="{{asset('css/flaticon/flaticon.css') }}">
+ <link rel="stylesheet" href="{{asset('css/font-awesome/all.min.css') }}">
+
  <style>
      .required:after {
          content: " *";
